@@ -52648,10 +52648,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrateInteractable
       objectReference: {fileID: 0}
-    - target: {fileID: 7138958476611334336, guid: f2577af55c2c54240bae9dab12e8d1ee, type: 3}
-      propertyPath: m_Resource
-      value: 
-      objectReference: {fileID: 8300000, guid: 48564d0a90f20ee469adffcd2a93b468, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -116898,8 +116894,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestItemPrefab: {fileID: 8474921122761462587, guid: a5dd8b49b42e4f84abb8b6f0d026cb4f, type: 3}
-  NewQuestSound: {fileID: 8300000, guid: 2b4ac001c9e1f3f4a8cd6eb5222efafc, type: 3}
-  QuestCompleteSound: {fileID: 8300000, guid: 0466541208792e94b9493b324dc67605, type: 3}
+  NewQuestSound: {fileID: 0}
+  QuestCompleteSound: {fileID: 0}
 --- !u!114 &857513958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166790,7 +166786,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 3091307875960266203, guid: 9ae730084098fa44b83b20ac849519c6, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: bd5b87cb854be644e8f024335e243a19, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -263716,11 +263712,7 @@ PrefabInstance:
     - target: {fileID: 4652808893690737309, guid: f2577af55c2c54240bae9dab12e8d1ee, type: 3}
       propertyPath: failedAudioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 7572b3fd52130f74da5820a6f7aea743, type: 3}
-    - target: {fileID: 4652808893690737309, guid: f2577af55c2c54240bae9dab12e8d1ee, type: 3}
-      propertyPath: successAudioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 35dbe02a5efd1474fa65befea127fb68, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 5540844520602129705, guid: f2577af55c2c54240bae9dab12e8d1ee, type: 3}
       propertyPath: m_Name
       value: LockedDoorInteractable
@@ -299837,10 +299829,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2081264852}
     m_Modifications:
-    - target: {fileID: 1584381890778473704, guid: 97b78d0eeaf72e94d98f6f188d391d07, type: 3}
-      propertyPath: m_Resource
-      value: 
-      objectReference: {fileID: 8300000, guid: 24f29ee3ef882ba4f8a8f144eb0d850e, type: 3}
     - target: {fileID: 6970604046914001757, guid: 97b78d0eeaf72e94d98f6f188d391d07, type: 3}
       propertyPath: m_Name
       value: Fan
@@ -300228,90 +300216,6 @@ PrefabInstance:
     - target: {fileID: 4830893990036841292, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
       propertyPath: GroundedRadius
       value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: impactHitClip
-      value: 
-      objectReference: {fileID: 8300000, guid: e1f27008a2606454b98400cd9fdbc5f3, type: 3}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[0].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 63b0e764131a2454cb79e15ca86651f9, type: 3}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[1].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 0d7646d1c19849c4faf1ad3314c38a31, type: 3}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[2].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 9395022e2e6a00b4188f0d08afe256d8, type: 3}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[3].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 1597bb4939c099e45833cacf8170e582, type: 3}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[4].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 544badf9ccebf11439e2ab0eeed97b21, type: 3}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[5].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 55f13b67c2f73a74d81f68f50ba77031, type: 3}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[6].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: c828734ba45e69041a356356bf3e22e9, type: 3}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[2].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[3].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[4].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[5].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[6].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[0].groundTexture
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[1].groundTexture
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[2].groundTexture
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[3].groundTexture
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[4].groundTexture
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[5].groundTexture
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456391743738592899, guid: 3423278b67f5b284da63f7220f51c93c, type: 3}
-      propertyPath: footstepSoundClips.Array.data[6].groundTexture
-      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
